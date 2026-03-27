@@ -60,6 +60,14 @@
       animation: twinkle 4.5s ease-in-out infinite alternate;
     }
 
+    @keyframes twinkle {
+      from { opacity: 0.22; }
+      to { opacity: 0.5; }
+    }
+
+    @keyframes drift {
+      from { transform: translateY(0); }
+      to { transform: translateY(-18px); }
     }
 
     .card {
@@ -111,8 +119,6 @@
       font-size: 0.95rem;
       color: #5e3d7d;
     }
-
-  
   </style>
 </head>
 <body>
@@ -123,6 +129,8 @@
       <strong>Sociology</strong> with a minor in <strong>Politics</strong>.
     </p>
 
+    <h2>Play a Game</h2>
+    <p><a href="https://alfarob-school.github.io/alfarob.github.website.ai109/pong.html">Open the Pong page</a> and play against the AI opponent.</p>
 
     <h2>My Hobbies</h2>
     <ul>
